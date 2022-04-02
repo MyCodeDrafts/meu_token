@@ -1,0 +1,34 @@
+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
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MyCodeDrafts/meu-site.git
+git push -u origin main
+
+
+
+
+
+
+
+
+git fetch origin master
+Em seguida, siga estas etapas para mesclar:
+
+git pull origin master
+git add .
+git commit -m 'your commit message'
+git push origin master
+
+
+
+
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/userName/repoName.git
+git push --force origin master
